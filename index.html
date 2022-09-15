@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bsale Tienda</title>
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="./src/index.js"></script>
+    <link rel="icon"sizes="32x32"href="https://res.cloudinary.com/dltjb3yhc/image/upload/v1663220828/banner/iconoBsale_mkkwpk.jpg">
+</head>
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <nav class="nav">
+        <div class="nav__center container">
+            
+          <div class="nav__logo">
+                    <a href="https://www.bsale.cl/" target="_blank">
+                        <img src="https://dojiw2m9tvv09.cloudfront.net/16738/2/img-logos-web-bsale-blanco-footer.png?1207" width="150px" id="img-logo"/>
+                    </a>
+                  </div>
+                  <ul class="nav__list">
+                      <span>
+                          <a href="https://www.linkedin.com/in/emmanuel-pa%C3%BAl-carrillo-carpio/" target="_blank">
+                              <box-icon type='logo' name='linkedin'></box-icon>
+                          </a> 
+                      </span>
+                  </ul>
+        </div>
+
+        <!--Filtros-->
+        <div class="selectContainer">
+            <select id='sortAlpha' onchange="sortAlpha()">
+                <!-- sorting buttons -->
+                <option>Order</option>
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+            </select>
+            <select id='sortPrice' onchange="sortPrice()">
+                <!-- sorting buttons -->
+                <option>Price</option>
+                <option value="hight">Hight</option>
+                <option value="low">Low</option>
+            </select>
+        </div>
+    </nav>
+    
+    <div class="search_container">
+        <!-- searchbar -->
+        <input
+        class="search_input"
+        type="text"
+        placeholder="Search product"
+        onblur="getValor()"
+        />
+        <button class="search_btn" type="submit">Search</button>
+    </div>
+    <div class="mainInfoContainer">
+        <div id="categories">
+            <button class='cat_boton' id="all" onclick="filtrarProductoCat('all')">TODOS</button>
+          <!-- display side button dinamicaly from index.js-->             
+        </div>
+        
+        <div class="productContainer">
+            <section id="products">
+                <!-- display all producs dinamicaly from index.js -->
+            </section>
+        </div>
+    </div>
+</body>
+</html>
