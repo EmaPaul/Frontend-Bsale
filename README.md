@@ -22,14 +22,15 @@ a continuacion estas son algunas funciones:</p>
 </ul>
 <br/>
 <p>Adicionalmente el diseño es responsivo para telefonos moviles y fue deployado en vercel.</p>
-<br/>
-<h1>Enlaces</h1>
+<h2>Front Deployado</h2>
 <ul>
 <li><a href="https://frontend-bsale-plum.vercel.app/" target="_blank">client</a></li>
-<li><a href="https://www.linkedin.com/in/emmanuel-pa%C3%BAl-carrillo-carpio/" target="_blank">Linkedin</a></li>
 </ul>
-<br/>
-<h1>Link del repositorio del Backend</h1>
+<h2>Repositorio del Backend</h2>
 <ul>
 <li><a href="https://github.com/EmaPaul/backend_bsale" target="_blank">backend_bsale</a></li>
+</ul>
+<h2>Linkedin</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/emmanuel-pa%C3%BAl-carrillo-carpio/" target="_blank">Linkedin</a></li>
 </ul>
