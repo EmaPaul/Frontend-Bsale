@@ -74,10 +74,9 @@
 @media only screen and (max-width: 1200px) {
     .selectContainer{
         margin-top:-32px;
-        margin-left:169px
+        margin-left:162px
     }
 }
-
 
 /*BUSQUEDA*/
 .search_container{
@@ -105,7 +104,7 @@
 @media only screen and (max-width: 1200px) {
     .search_container{
         margin-top:40%;
-        margin-right: 1px;
+        margin-right: 22px;
     }
     .search_input{
         margin-left:-49%
